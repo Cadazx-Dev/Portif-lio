@@ -1,0 +1,74 @@
+body {
+   background-image: linear-gradient(to right, #320863, #3e1c78, #492d8d, #543fa3, #5f50b9, #5e51c0, #5d53c8, #5b54cf, #4e44c8, #3f34c1, #3022ba, #1c0ab2);
+    margin: auto;                           /* Cor da pag */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   /* Fontes da pag*/
+}
+
+main {
+    padding: 10px;                          /*Espaçamento dentro da caixa*/
+    min-width: 300px;                       /*Tamanho Min da largura*/
+    max-width: 4000px;                      /*Tamanho max da largura*/
+    margin: 500px auto;                     /* Margem do txt */
+    background-color: #ffffff;            /*Cor do fundo*/
+    font-size: 30px;                        /*Tamanho do txt*/
+    
+}
+
+.div-esquerda {
+    font-size: 30px;                        /*Tamanho do txt*/
+    color: rgb(255, 255, 255);            /*Cor da Div*/
+    position: relative;                     /*Posição da div*/
+    margin: auto;                           /*Margem da div*/
+    left: 100px;                            /*Espaço lateral direita da div*/
+    margin-bottom: 2px;                     /*Arredondamento da Borda*/
+}
+
+.us {
+    font-size: 30px;                        /*Tamanho do txt*/
+    color: white;                         /*Cor do txt*/
+    margin-top: -30px;                      /*Margem de cima*/
+    position: relative;                     /*Posicão do txt*/
+}
+
+.img-logo{
+    position: relative;                     /*Posição da img*/
+    justify-content: start;                 /*Posição da img*/
+    margin-top: 30px;                       /*Margem de cima*/
+    width: auto;                            /*Tamanho da largura*/
+    height: 120px;                          /*Tamanho da altura*/
+    left: 100px;                            /*Espaço lateral direita da img*/
+}
+
+.Botão-CV {
+    font-size: 15px;                        /*Tamanho da fonte*/
+    padding: 10px;                          /*Espaçamento dentro da caixa*/
+    background-color: #ffffff;            /*Cor do botão*/
+    color: rgb(0, 0, 0);                  /*Cor da fonte*/
+    border-radius: 50px;                    /*Arredondamento da borda*/
+    text-decoration: none;                  /*Efeito sem lina do txt*/
+}
+
+.about {
+    max-width: 1920px;                       /* Largura do fundo */
+    min-height: 870px;                       /*Tamanho do fundo*/
+    margin: auto;                            /* Centraliza o txt */
+    text-align: center;                      /* Alinhamento do txt */
+}
+
+.about-title {
+    font-size: 30px;                        /* Tamanho do texto*/
+    font-weight: 800;                       /* Peso da fonte */
+    margin-bottom: 24px;                    /* Espaço entre parágrafos*/
+}
+
+.about p {
+    font-size: 20px;                        /*Tamanho do txt p*/
+    line-height: 1.7;                       /*Espaço entre as linhas*/
+    font-weight: 100;                       /*Peso da fonte*/
+    color: #333;                          /*Cor da fonte*/
+    margin-bottom: 16px;                    /*Espaço entre parágrafos*/
+    
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
