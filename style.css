@@ -2,16 +2,18 @@ body {
    background-image: linear-gradient(to right, #320863, #3e1c78, #492d8d, #543fa3, #5f50b9, #5e51c0, #5d53c8, #5b54cf, #4e44c8, #3f34c1, #3022ba, #1c0ab2);
     margin: auto;                           /* Cor da pag */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   /* Fontes da pag*/
+    width: 100%;                            /*Tamanho da largura*/
+    max-width: 1200px;                      /*Tamanho Min da largura*/
+    min-width: 0;                           /*Tamanho max da largura*/
+    
+   
 }
 
 main {
     padding: 10px;                          /*Espaçamento dentro da caixa*/
-    min-width: 300px;                       /*Tamanho Min da largura*/
-    max-width: 4000px;                      /*Tamanho max da largura*/
     margin: 500px auto;                     /* Margem do txt */
-    background-color: #ffffff;            /*Cor do fundo*/
-    font-size: 30px;                        /*Tamanho do txt*/
-    
+    background-color: #b83131;            /*Cor do fundo*/
+    font-size: 30px;                        /*Tamanho do txt*/   
 }
 
 .div-esquerda {
@@ -36,21 +38,23 @@ main {
     margin-top: 30px;                       /*Margem de cima*/
     width: auto;                            /*Tamanho da largura*/
     height: 120px;                          /*Tamanho da altura*/
-    left: 100px;                            /*Espaço lateral direita da img*/
+    left: 90px;                            /*Espaço lateral direita da img*/
 }
 
 .Botão-CV {
     font-size: 15px;                        /*Tamanho da fonte*/
-    padding: 10px;                          /*Espaçamento dentro da caixa*/
     background-color: #ffffff;            /*Cor do botão*/
     color: rgb(0, 0, 0);                  /*Cor da fonte*/
     border-radius: 50px;                    /*Arredondamento da borda*/
     text-decoration: none;                  /*Efeito sem lina do txt*/
+    padding: 10px 20px;                     /*Espaçamento dentro da caixa*/
+    position: relative;                     /*Posição do botão*/
+    top: 50px;
 }
 
 .about {
-    max-width: 1920px;                       /* Largura do fundo */
-    min-height: 870px;                       /*Tamanho do fundo*/
+    max-width: 600px;                       /* Largura do fundo branco */
+    min-height: 100px;                       /*Tamanho do fundo*/
     margin: auto;                            /* Centraliza o txt */
     text-align: center;                      /* Alinhamento do txt */
 }
@@ -68,7 +72,5 @@ main {
     color: #333;                          /*Cor da fonte*/
     margin-bottom: 16px;                    /*Espaço entre parágrafos*/
     
-    display: grid;
-    justify-content: center;
-    align-items: center;
+    
 }
